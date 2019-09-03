@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #e7e7e7;
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+#Logo{
+	float: left;
+}
+#wrapper{
+	min-height: calc(100vh - 70px);
+}
+#title{
+	margin-top: 120px;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+}
+#bio{
+	margin-top: 140px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+#SignUpTitle{
+	text-align: center;
+	margin-top: -490px;
+	font-family: 'Muli', sans-serif;
+}
+
+nav {
+	background-color: #000000;
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	overflow: hidden;
+}
+nav a{
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 15px 10px;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 70px;
+	border: 1px solid #474747;
+	border-radius: 15px;
+}
+
+nav .icon {
+	display: none;
+}
+nav > a:hover {
+	color:#36aeb8;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(#474747, #e7e7e7);
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+	line-height:23px;
+}
+footer ul li {
+	display:inline-block;
+	margin-bottom:0px;
+	padding-left:10px;
+}
+footer ul {
+	list-style-type: none;
+	color:#000;
+}
+li a:hover {
+	color:#36aeb8;
+}
+
+.footer {
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#SignUpButtons{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#bd{
+    width: 400px;
+    height: 70px;
+    margin-top: -440px;
+    font-size: 40px;
+}
+
+#salesman{
+    width: 400px;
+    height: 70px;
+    margin-top: -440px;
+    font-size: 40px;
+}
+
+/*******form for contact**************/
+
+#container{
+    margin-top: 200px;
+    position: relative;
+}
+.contact {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 330px;
+}
+.textlabel {
+	display:inline-block;
+	text-align:right;
+	line-height:1.8em;
+	font-weight:bold;
+	color: black;
+	padding-right: 5px;
+	line-height:1.8em;
+	width: 150px;
+	float:left;
+	font-weight:bold;
+	font-size:20px;
+	margin-top: -7px;
+}
+
+.inputTags{
+    display: block;
+    border: 1px solid;
+    outline: none;
+    margin: 0 auto;
+    padding: 0;
+    height: 25px;
+}
+
+.row{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+button {
+	background-color: darkgrey;
+	margin-left:auto;
+	margin-right:auto;
+}
+#bd:hover {
+     background-image: linear-gradient(#36aeb8,#e7e7e7, #fff);
+}
+
+#salesman:hover {
+    background-image: linear-gradient(#36aeb8,#e7e7e7, #fff);
+}
+
+#sendMessage{
+	background-color: darkgrey;
+	margin-right: -66px;
+	margin-top: 5px;
+}
+input {
+	display:inline-block;
+	text-align: left !important;
+}
+input[type=text]:focus {
+	background-color: lightblue;
+}
+
+#Contact\ Title{
+	margin-top: 100px;
+    text-align: center;
+}
+
+
+
+/*******Form for Salesman**********/
+
+
+#container1{
+	display: none;
+	margin-top: -400px;
+	position: relative;
+}
+
+
+.SalesmanForm{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 330px;
+}
+
+.SalesmanTextField {
+	display:inline-block;
+	text-align:right;
+	line-height:1.8em;
+	font-weight:bold;
+	color: black;
+	padding-right: 5px;
+	line-height:1.8em;
+	width: 150px;
+	float:left;
+	font-weight:bold;
+	font-size:20px;
+	margin-top: -7px;
+}
+
+.SalesmanInputTags{
+	display: block;
+	border: 1px solid;
+	outline: none;
+	margin: 0 auto;
+	padding: 0;
+	height: 25px;
+}
+
+
+
+
+/*******Form for business Developers***********/
+#container2 {
+	display: none;
+	position: relative;
+}
+
+.bdForm{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 330px;
+	margin-top: -250px;
+}
+
+.bdTextField {
+	display:inline-block;
+	text-align:right;
+	line-height:1.8em;
+	font-weight:bold;
+	color: black;
+	padding-right: 5px;
+	line-height:1.8em;
+	width: 150px;
+	float:left;
+	font-weight:bold;
+	font-size:20px;
+	margin-top: -7px;
+}
+
+.bdInputTags{
+	display: block;
+	border: 1px solid;
+	outline: none;
+	margin: 0 auto;
+	padding: 0;
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+a[href^="https://www.facebook.com/nahom.haile.524"] {
+	width:70px;
+	height:70px;
+}
+a[href^="https://twitter.com/NahomHaile16?lang=en"] {
+	width:70px;
+	height:70px;
+}
+a[href^="https://www.youtube.com/channel/UC2IOemWj3ZlG-85Ua0LwJ8g?view_as=subscriber"] {
+	width:70px;
+	height:70px;
+}
+a[href^="https://www.instagram.com/haile.nahom/?hl=en"] {
+	width:70px;
+	height:70px;
+}
+a[href^="#"] {
+	float:left;
+	margin-top: -40px;
+}
+
+
+@media screen and (max-width: 768px) {
+	nav a:not(:first-child) {
+		display: none;
+	}
+
+	nav a.icon{
+		float: right;
+		display: block;
+	}
+
+	nav.responsive {
+		position: relative;
+	}
+
+	nav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	nav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	nav a:not(.icon){
+		text-align: center;
+		margin: 100px auto 0;
+		padding: 0 0 0 0;
+	}
+
+	#bd{
+		width: 200px;
+		height: 40px;
+		font-size: 20px;
+		margin-top: -430px;
+	}
+
+	#salesman{
+		width: 200px;
+		height: 40px;
+		font-size: 20px;
+		margin-top: -430px;
+	}
+
+	#SignUpTitle{
+		margin-top: -500px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 461px){
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Inner Karate</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum= 2.0, user-scalable=yes">
+<meta name="keywords" content="karate inner gi staf focus traiening lessons karateclasses">
+<meta name="descriptions" content="This website is an online free training course for those who want to learn karate, Martial Arts. The concepts that you will learn are the skills of focus, patience, and fitness. There are many personal trainers at my academy who will train, inspire and reveal your inner Karate">
+<meta name="author" content="Nahom Haile">
+<meta http-equiv="refresh" content="30">
+<link href="../Styles/site.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header> <a href="index.html"><img src="Images/banner.png" alt="banner" width="620" height="400"/></a><!-- #BeginLibraryItem "/Library/domain.lbi" --><br>InnerKarate.ca 
+<!-- #EndLibraryItem --></header>
+<nav> <a href="index.html" id="pages">Home</a><a href="Contact.html" id="pages5">Contact</a><a href="Costs.html"  id="pages7">Costs</a><a href="Locations.html"  id="pages8">Locations</a> <a href="Purpose.html" class="mobileHide" id="pages1">Purpose</a><a href="Focus.html" class="mobileHide" id="pages3">Focus</a> <a href="Staff.html" class="mobileHide" id="pages4">Staff</a>  <a href="Hours.html" class="mobileHide" id="pages6">Hours</a>   <a href="MyProducts.html" class="mobileHide" id="pages9">Products</a> <a href="Testimonials.html" class="mobileHide" id="pages10">Testimonials</a> </nav>
+<!-- TemplateBeginEditable name="content" -->
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+<!-- TemplateEndEditable -->
+<footer class="links2">
+  <ul class="buttomlinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Contact.html" >Contact</a></li>
+    <li><a href="Costs.html" >Costs</a></li>
+    <li><a href="Locations.html" >Locations</a></li>
+    <li><a href="Purpose.html" class="mobileHide">Purpose</a></li>
+    <li><a href="Focus.html" class="mobileHide">Focus </a></li>
+    <li><a href="Staff.html" class="mobileHide">Staff </a></li>    
+    <li><a href="Hours.html" class="mobileHide">Hours</a></li>    
+    <li><a href="MyProducts.html" class="mobileHide">Products</a></li>
+    <li><a href="Testimonials.html" class="mobileHide">Testimonials</a></li>
+  </ul>
+  <!-- #BeginLibraryItem "/Library/copyright.lbi" -->&copy; Find your Inner Karate. All rights reserved.<!-- #EndLibraryItem --> </footer>
+</body>
+</html>
